@@ -7,7 +7,8 @@ docker run -it --rm -p 80:80 -p 443:443 -v /docker/letsencrypt:/etc/letsencrypt 
 ```
 
 ```
-letsencrypt certonly --standalone -d example.com -d www.example.com --noninteractive --agree-tos --email contact@example.com
+letsencrypt certonly --standalone -d example.com -d www.example.com \
+    --noninteractive --agree-tos --email contact@example.com
 ```
 
 Certificates can be found in `/etc/letsencrypt/live`
