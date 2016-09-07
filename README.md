@@ -11,5 +11,5 @@ letsencrypt certonly --standalone -d example.com -d www.example.com \
     --noninteractive --agree-tos --email contact@example.com
 ```
 
-Certificates can be found in `/etc/letsencrypt/live`
+Certificates can be found in `/etc/letsencrypt/live` (in above example `/docker/letsencrypt/live`)
 
